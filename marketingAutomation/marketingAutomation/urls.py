@@ -27,6 +27,6 @@ urlpatterns = [
     path('campaign/', include('campaign.urls')),
     path('emailMarketing/', include('emailMarketing.urls')),
     path('qrCodeMarketing/', include('qrCodeMarketing.urls')),
-    # path('campaign/', include('campaign.urls')),
-    # path('campaign/', include('campaign.urls')),
+    path('socialMedia/', include('socialMedia.urls')),
+    path('whatsappMarketing/', include('whatsappMarketing.urls')),
 ]
